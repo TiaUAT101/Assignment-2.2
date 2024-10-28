@@ -22,13 +22,4 @@ function rollDice() {
 }
 
 // Function to set up the event listener for the button
-function setupGame() {
-    // Get the button element by its ID
-    const button = document.getElementById('rollButton');
 
-    // Add click event listener to the button
-    button.addEventListener('click', rollDice);
-}
-
-// Call setupGame when the script loads
-setupGame();
